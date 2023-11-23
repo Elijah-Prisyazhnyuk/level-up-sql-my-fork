@@ -5,3 +5,8 @@
 -- they plan to bring in their party.
 
 -- Hint: SQLite offers the INTEGER and REAL datatypes
+
+CREATE TABLE invited_customers
+(customer_id INTEGER,
+invited_guests INTEGER
+)
