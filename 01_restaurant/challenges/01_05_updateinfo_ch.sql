@@ -9,11 +9,4 @@ SET
   Address = '74 Pine St.',
   City = 'New York',
   State = 'NY'
-WHERE FirstName = 'Taylor' AND LastName = 'Jenkins';
-
-UPDATE Customers
-SET
-  Address = '74 Pine St.',
-  City = 'New York',
-  State = 'NY'
-WHERE FirstName = 'Taylor' AND LastName = 'Jenkins';
+WHERE CustomerID = 26;
